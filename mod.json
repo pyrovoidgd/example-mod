@@ -1,12 +1,12 @@
 
 {
-  "geode": "1.5.0",
+  "geode": "v1.5.0",
   "gd": {
     "android": "2.207"
   },
-  "id": "pyrovoid.better_editor_buttons",
-  "name": "Better Editor Buttons",
+  "id": "pyrovoid.fake-rate",
+  "name": "Fake Rate",
   "version": "v1.0.0",
   "developer": "pyrovoid",
-  "description": "Better buttons for the Geometry Dash editor"
+  "description": "Fake Rate for Geometry Dash"
 }
