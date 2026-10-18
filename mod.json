@@ -1,14 +1,15 @@
+
 {
-	"geode": "1.8.0",
-	"gd": {
-		"android": "2.2.143",
-	},
-	"id": "better_editor_buttons",
-	"name": "better editor buttons",
-	"version": "1.0.0",
-	"developer": "pyrovoid",
-	"description": "nothing here yet",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+  "geode": "v5.11.2",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "pyrovoid.fake-rate",
+  "name": "Fake Rate",
+  "version": "v1.0.0",
+  "developer": "pyrovoid",
+  "description": "Customize level difficulty and star ratings locally.",
+  "dependencies": {
+    "geode.node-ids": ">=v1.23.3"
+  }
 }
