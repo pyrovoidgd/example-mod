@@ -1,0 +1,33 @@
+
+name: Build Fake Rate for Android
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build Android mod
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          target: Android64
+          sdk: given
+
+      - name: Upload built mod
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fake-Rate-Android
+          path: build/**/*.geode
+          if-no-files-found: error
+          retention-days: 14
